@@ -47,16 +47,10 @@ The theme contains the following directories and files:
 │   ├── theme_assets.php
 │   ├── theme_functions.php
 │   └── theme_supports.php
-├── parts
-│   ├── footer.html
-│   └── header.html
 ├── README.md
 ├── readme.txt
 ├── screenshot.png
 ├── style.css
-├── templates
-│   └── index.html
-└── theme.json
 ```
 
 ## Development Workflow
@@ -96,13 +90,6 @@ gulp lint-scss
 This will:
 - Format SCSS code according to a consistent style.
 - Automatically fix code style issues where possible.
-
-#### Theme.json Formating
-Format Theme.json file with Prettier
-
-```bash
-gulp format-theme-json
-```
 
 This will:
 - Format Theme.json file according to a consistent style.
