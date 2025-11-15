@@ -22,8 +22,8 @@ function basecoat_enqueue_block_variations() {
 --------------------------------------------------------------------------------------------------- */
 add_action('wp_enqueue_scripts', 'basecoat_enqueue_styles');
 function basecoat_enqueue_styles() {
-    wp_enqueue_style('baseboat-gp', get_stylesheet_directory_uri() . '/style.css', ['generate-style', 'generate-child']);
-    wp_enqueue_style('baseboat-gp-theme', get_stylesheet_directory_uri() . '/assets/css/theme.css', ['generate-style', 'generate-child', 'baseboat-gp'], wp_get_theme()->get('Version'));
+    wp_enqueue_style('basecoat-gp', get_stylesheet_directory_uri() . '/style.css', ['generate-style', 'generate-child']);
+    wp_enqueue_style('basecoat-gp-theme', get_stylesheet_directory_uri() . '/assets/css/theme.css', ['generate-style', 'generate-child', 'basecoat-gp'], wp_get_theme()->get('Version'));
 }
 
 /*	-----------------------------------------------------------------------------------------------
@@ -31,5 +31,5 @@ function basecoat_enqueue_styles() {
 --------------------------------------------------------------------------------------------------- */
 add_action('wp_enqueue_scripts', 'basecoat_enqueue_scripts');
 function basecoat_enqueue_scripts() {
-    wp_enqueue_script('baseboat-gp-theme', get_stylesheet_directory_uri() . '/assets/js/theme.js', [], wp_get_theme()->get('Version'), true);
+    wp_enqueue_script('basecoat-gp-theme', get_stylesheet_directory_uri() . '/assets/js/theme.js', [], wp_get_theme()->get('Version'), true);
 }

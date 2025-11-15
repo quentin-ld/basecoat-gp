@@ -1,4 +1,4 @@
-== baseboat-gp ==
+== basecoat-gp ==
 
 Contributors:
 Requires at least: 6.8
@@ -7,7 +7,7 @@ Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-baseboat-gp is a flexible WordPress starter theme designed for generatepress child themes,
+basecoat-gp is a flexible WordPress starter theme designed for generatepress child themes,
 featuring a streamlined development workflow with pre-made PHP includes for CSS and JS on both the front-end and Gutenberg editor,
 PHP linting, a simple Gulp workflow, and a zip export function for easy deployment.
 
@@ -19,8 +19,8 @@ PHP linting, a simple Gulp workflow, and a zip export function for easy deployme
 
 == Copyright ==
 
-baseboat-gp WordPress Theme, (C) 2025
-baseboat-gp is distributed under the terms of the GNU GPL.
+basecoat-gp WordPress Theme, (C) 2025
+basecoat-gp is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
