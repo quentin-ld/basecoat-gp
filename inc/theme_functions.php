@@ -3,8 +3,8 @@
 /*	-----------------------------------------------------------------------------------------------
     ADD PAGE SLUG TO BODY CLASS
 --------------------------------------------------------------------------------------------------- */
-add_filter('body_class', 'ymca_add_slug_body_class');
-function ymca_add_slug_body_class($classes) {
+add_filter('body_class', 'basecoat_add_slug_body_class');
+function basecoat_add_slug_body_class($classes) {
     global $post;
     if (isset($post)) {
         $classes[] = $post->post_type . '-' . $post->post_name;
