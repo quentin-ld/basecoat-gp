@@ -1,13 +1,13 @@
 .wp-block-button.is-style-outline {
-  .wp-block-button__link {
-    &:is(:hover, :focus) {
-    }
-  }
+	.wp-block-button__link {
+		&:is(:hover, :focus) {
+		}
+	}
 }
 
 .wp-block-button__link {
-  &:is(:hover, :focus) {
-  }
+	&:is(:hover, :focus) {
+	}
 }
 
 input[type='button'],
@@ -19,6 +19,6 @@ button:disabled,
 input[type='button']:disabled,
 input[type='reset']:disabled,
 input[type='submit']:disabled {
-  &:is(:hover, :focus) {
-  }
+	&:is(:hover, :focus) {
+	}
 }

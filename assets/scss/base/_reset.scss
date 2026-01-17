@@ -1,28 +1,28 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 #root,
 #__next {
-  isolation: isolate;
+	isolation: isolate;
 }
 
 html,
 body,
 .wp-site-blocks {
-  margin: 0;
-  max-width: 100%;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  width: 100%;
+	margin: 0;
+	max-width: 100%;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	width: 100%;
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
 }
 
 img,
@@ -30,19 +30,19 @@ picture,
 video,
 canvas,
 svg {
-  display: block;
-  max-width: 100%;
+	display: block;
+	max-width: 100%;
 }
 
 figure {
-  margin: 0;
+	margin: 0;
 }
 
 input,
 button,
 textarea,
 select {
-  font: inherit;
+	font: inherit;
 }
 
 p,
@@ -52,5 +52,5 @@ h3,
 h4,
 h5,
 h6 {
-  overflow-wrap: break-word;
+	overflow-wrap: break-word;
 }

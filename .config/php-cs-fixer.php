@@ -1,6 +1,8 @@
 <?php
+
 use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
+use PhpCsFixer\Runner\Parallel\ParallelConfigFactory;
 
 $rules = [
     // Front usefull config
@@ -129,5 +131,6 @@ $config = new Config();
 return $config->setFinder($finder)
     ->setRules($rules)
     ->setRiskyAllowed(true)
-    ->setUsingCache(true);
+    ->setUsingCache(true)
+    ->setParallelConfig(ParallelConfigFactory::detect());
 
