@@ -13,6 +13,9 @@ PHP linting, a simple Gulp workflow, and a zip export function for easy deployme
 
 == Changelog ==
 
+= 2.0.0 =
+* Update to esbuild workflow with a .config folder
+
 = 1.0.0 =
 * Initial release
 
