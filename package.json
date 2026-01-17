@@ -1,6 +1,6 @@
 {
   "name": "basecoat-gp-theme",
-  "version": "1",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "lint-js": "eslint --config .config/eslint.js --fix --ext .js assets/js/**/*.js && prettier --config .config/prettier.config.js --write assets/js/**/*.js",
