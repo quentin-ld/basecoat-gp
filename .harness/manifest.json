@@ -1,5 +1,5 @@
 {
-  "commit": "4721dc7",
+  "commit": "bf48ab8",
   "files": {
     ".agents/docs/DISTILLATION.md": {
       "class": "owned",
@@ -47,7 +47,7 @@
     },
     ".agents/skills/test-author/SKILL.md": {
       "class": "owned",
-      "sha256": "89ee92642c151360a450f04272f6ffee25f792754c2a34f64523473779bd8f98"
+      "sha256": "0baeae05dbdbd351bd4c0223a7a48907b12368e8e434b7fb2d597c6416bc481d"
     },
     ".agents/skills/translation/SKILL.md": {
       "class": "owned",
@@ -83,7 +83,7 @@
     },
     ".githooks/pre-push": {
       "class": "owned",
-      "sha256": "c6df2aacfd9de216656ba988eaf6dd126225e512c5d6a8014bb661997f439c1c"
+      "sha256": "600cba69eb098d6db4ae8b192ea47383094882c227a03191aedefc45a062e8d1"
     },
     ".githooks/pre-release": {
       "class": "owned",
@@ -141,7 +141,7 @@
     ".reasonix/skills/test-author/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/test-author/SKILL.md",
-      "sha256": "89ee92642c151360a450f04272f6ffee25f792754c2a34f64523473779bd8f98"
+      "sha256": "0baeae05dbdbd351bd4c0223a7a48907b12368e8e434b7fb2d597c6416bc481d"
     },
     ".reasonix/skills/translation/SKILL.md": {
       "class": "mirror",
@@ -171,7 +171,7 @@
     },
     "bin/harness": {
       "class": "owned",
-      "sha256": "b5e56457947cd51af932cfa66f315ff788b9cd0b1e83af97ce75d47582b5fc93"
+      "sha256": "f16d424100e0d43454babb4abacde666a44eb3fd6a2333b1ed6c52b30f73eb98"
     },
     "composer.json": {
       "class": "merge",
