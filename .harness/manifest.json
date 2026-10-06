@@ -1,5 +1,5 @@
 {
-  "commit": "3c6d59c",
+  "commit": "9cda095",
   "files": {
     ".agents/docs/DISTILLATION.md": {
       "class": "owned",
@@ -11,7 +11,7 @@
     },
     ".agents/skills/architect/SKILL.md": {
       "class": "owned",
-      "sha256": "effd4fe86b8ae626f8cad1dbc02b98d9a156153b97bb70f9dede2a38ce147a37"
+      "sha256": "fcd675c11da94d83261c6e934a759c250251b27f35c688fcbccbee7a77e6bba1"
     },
     ".agents/skills/documentation/SKILL.md": {
       "class": "owned",
@@ -87,7 +87,7 @@
     },
     ".distignore": {
       "class": "lines",
-      "sha256": "276453d434d68435606ef521f385905761c793f8013a358e128c83c452259925"
+      "sha256": "cc27f82c1824cf5328e303030ddac904be8ffa35287d802e8f144015caaa0be3"
     },
     ".githooks/pre-commit": {
       "class": "owned",
@@ -108,7 +108,7 @@
     ".reasonix/skills/architect/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/architect/SKILL.md",
-      "sha256": "ec903e3d121aebc3f0dbed56790f4ee36c43e7ef446ff6c5c6b0a999a33f8240"
+      "sha256": "1f6dfcd042a6b2ba50030c4aee44b28baef6e10f73f6673a6121fecfd7871b68"
     },
     ".reasonix/skills/documentation/SKILL.md": {
       "class": "mirror",
@@ -198,7 +198,7 @@
     },
     "bin/harness": {
       "class": "owned",
-      "sha256": "ec830eca17d66753b773699aa451beab9d37f4c12bb788fdd53d7781d77af2da"
+      "sha256": "8b71dcebed8b9196ddf9421d5b46dd73f0353335c8056d1684b4c050abee4af0"
     },
     "composer.json": {
       "class": "merge",
