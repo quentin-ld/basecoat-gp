@@ -1,5 +1,5 @@
 {
-  "commit": "a9c2a9d",
+  "commit": "3c6d59c",
   "files": {
     ".agents/docs/DISTILLATION.md": {
       "class": "owned",
@@ -11,7 +11,7 @@
     },
     ".agents/skills/architect/SKILL.md": {
       "class": "owned",
-      "sha256": "18a3f440ac32565de864b4800763469b31d7e194d219351661dd0350ef9438a1"
+      "sha256": "effd4fe86b8ae626f8cad1dbc02b98d9a156153b97bb70f9dede2a38ce147a37"
     },
     ".agents/skills/documentation/SKILL.md": {
       "class": "owned",
@@ -19,7 +19,7 @@
     },
     ".agents/skills/graft/SKILL.md": {
       "class": "owned",
-      "sha256": "a3c8ec00dc54ec5abbe41bfae00ad550d6d3b47c711189125b28c9198dde0df6"
+      "sha256": "0cc0ce7eb2df0d03ddd8ad202f1c9fd58d5cda1841045f7bf155717bd5fcb118"
     },
     ".agents/skills/grilling/SKILL.md": {
       "class": "owned",
@@ -35,11 +35,11 @@
     },
     ".agents/skills/mutation-testing/SKILL.md": {
       "class": "owned",
-      "sha256": "c01441c31eefa2bd80ea7debb66ddb0b4a70afbb3806537321972e230018881b"
+      "sha256": "419f29e1bc135d7e828181f04b482ca0e5fb3b8e68ea71d45525eed1e2431de5"
     },
     ".agents/skills/qa/SKILL.md": {
       "class": "owned",
-      "sha256": "7c7833af460e407d1f367a369d8ada44eed97ee18492e13ba2ed6789bb518db2"
+      "sha256": "1c8d718e5ddfb3c4e9943fca6caec922e5c52c15d4beff349fb37dfc76d0d9df"
     },
     ".agents/skills/release/SKILL.md": {
       "class": "owned",
@@ -47,15 +47,15 @@
     },
     ".agents/skills/resume/SKILL.md": {
       "class": "owned",
-      "sha256": "b7ea767c8db809087e998248147e032d070f1a3f73d74ae8d67ac36d7cce7bca"
+      "sha256": "8f096b147609a6b5babf36e2b86905d2b76310b42c7ab54d6436a946a4691484"
     },
     ".agents/skills/reviewer/SKILL.md": {
       "class": "owned",
-      "sha256": "68d867df514675ffa4ce45d2d42ebc9d89cd924696d64574254ebdf2ba72e7b4"
+      "sha256": "54cabbfd648d745bd1ec75b9a894015b2ec7446802e4669e84e4b384c2b901fa"
     },
     ".agents/skills/security/SKILL.md": {
       "class": "owned",
-      "sha256": "002b3fa23ada6b7c37c458b02bbcd72b2848ddc655504395a5323aeb810cf2fd"
+      "sha256": "c16427ddcd25c4b3f07471e6a66d1eb870d3acfb3f69ea971cb1471e032311c2"
     },
     ".agents/skills/test-author/SKILL.md": {
       "class": "owned",
@@ -91,11 +91,11 @@
     },
     ".githooks/pre-commit": {
       "class": "owned",
-      "sha256": "55380fcec995dab62f02149b20e754c89930cfc2ff6ad1b57637f5aadf642c5f"
+      "sha256": "7d8bfad3b2d327ea1c0051fb63fca7ac5530c05e7f87b6661f637238ace710fd"
     },
     ".githooks/pre-push": {
       "class": "owned",
-      "sha256": "3294bfc488519eef301e4e61106ac053a33f80c8cb8e0f161dfac15a7c74fea3"
+      "sha256": "a8e006ca1a79dd04cb0cf5927fa1c9a9934c49ae93cca86f299744e1fcbcae40"
     },
     ".githooks/pre-release": {
       "class": "owned",
@@ -103,12 +103,12 @@
     },
     ".gitignore": {
       "class": "lines",
-      "sha256": "4e3793b2d416b11266f97bf4412c54f79570d1251a2bd378f76c2bf20f093e72"
+      "sha256": "34aa679254d9316cb061ac0bf77279406f5503afbfc9dcb34967dfd227ed349a"
     },
     ".reasonix/skills/architect/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/architect/SKILL.md",
-      "sha256": "fb96f4bc889aeb825a888ae4275dbd6dd5d0e3f9a7b8b449d725f8ddc664c777"
+      "sha256": "ec903e3d121aebc3f0dbed56790f4ee36c43e7ef446ff6c5c6b0a999a33f8240"
     },
     ".reasonix/skills/documentation/SKILL.md": {
       "class": "mirror",
@@ -118,7 +118,7 @@
     ".reasonix/skills/graft/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/graft/SKILL.md",
-      "sha256": "1de973231c013b59b93b669494cbed67e608f6dc1b2c91143e8a2ac81a54b0ed"
+      "sha256": "060512e28621c008955a3c2c327bdfea6f50708cb1f92d2820df12c68f66237d"
     },
     ".reasonix/skills/grilling/SKILL.md": {
       "class": "mirror",
@@ -138,12 +138,12 @@
     ".reasonix/skills/mutation-testing/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/mutation-testing/SKILL.md",
-      "sha256": "c01441c31eefa2bd80ea7debb66ddb0b4a70afbb3806537321972e230018881b"
+      "sha256": "419f29e1bc135d7e828181f04b482ca0e5fb3b8e68ea71d45525eed1e2431de5"
     },
     ".reasonix/skills/qa/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/qa/SKILL.md",
-      "sha256": "010de8ca2066378084fab354c356501dc785bd4bbbc403af6c196d20c14150d2"
+      "sha256": "fff331fcabd71bc0c2e5d0a4020b115a30fb0dd8a53e9f7c0caebf8b15ad19f9"
     },
     ".reasonix/skills/release/SKILL.md": {
       "class": "mirror",
@@ -153,17 +153,17 @@
     ".reasonix/skills/resume/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/resume/SKILL.md",
-      "sha256": "3dd2bc35b98ea372149c8b9eb29f877dfd913a2497da1c9499cbc72538c0425e"
+      "sha256": "4739c6bd50c0edbe8a42140d530fe1083a1f245a2deb2372ac5763a7151c2a59"
     },
     ".reasonix/skills/reviewer/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/reviewer/SKILL.md",
-      "sha256": "6b354846b3e6c18eff5d49f3e214023ab5af520e4de74603a5cbdf1156983d6f"
+      "sha256": "d2cfeb48cb898e1f0e53873d029696ec51ceacfbf9a100dc0f5fb6063f99bf9f"
     },
     ".reasonix/skills/security/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/security/SKILL.md",
-      "sha256": "557ba79584d536410e69e4046d9ad11bcad95ec3821ea1eb8fa952174685f7ea"
+      "sha256": "dff6a906b9b6b9b42e06486832cd08f2e339a59bbb8327f711b89e7505d1b0ce"
     },
     ".reasonix/skills/test-author/SKILL.md": {
       "class": "mirror",
@@ -182,7 +182,7 @@
     },
     "AGENTS.md": {
       "class": "block",
-      "sha256": "442e660f546768a3675cbb5fc6a85a45fc61744ff243d8951086d39393a19b91"
+      "sha256": "502678e0b735b4ae82598332725756833ff1a4181855e4d863b30d27f915bff6"
     },
     "README.md": {
       "class": "block",
@@ -198,7 +198,7 @@
     },
     "bin/harness": {
       "class": "owned",
-      "sha256": "3c5af3c84f687071abff4a8d15e1067ae51c2c9e652da2ff877dcf98017f8b3a"
+      "sha256": "ec830eca17d66753b773699aa451beab9d37f4c12bb788fdd53d7781d77af2da"
     },
     "composer.json": {
       "class": "merge",
@@ -206,7 +206,7 @@
     },
     "package.json": {
       "class": "merge",
-      "sha256": "b404bfd8148895b5ca1078e5feba4c33022ab51b77aba18744e259168411b61e"
+      "sha256": "ba28bdd50d87ede3e77e2eb229ccae2c138431d32f690e7e91c5db60f06cb2b3"
     },
     "workflow.md": {
       "class": "block",
