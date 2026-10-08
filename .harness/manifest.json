@@ -1,13 +1,13 @@
 {
-  "commit": "85ba3bb",
+  "commit": "f614f20",
   "files": {
     ".agents/docs/DISTILLATION.md": {
       "class": "owned",
-      "sha256": "019d311a94b15824cabc9d60ac95a5f6bc9a2f9de4963be57be074ff8df5e17d"
+      "sha256": "d9fd2247fe5ff75c42adce006e68cd04c89d247b7b43d524e3098317ed54c883"
     },
     ".agents/docs/audit-checklists.md": {
       "class": "owned",
-      "sha256": "4b61c0a48a75bd912fd6ba316cc83e34a66147ab552947a6130313673eef5ec2"
+      "sha256": "ca811d8af1e3904375b6ea3578b4921f85d585e4ed714c4b843d0e1315232d29"
     },
     ".agents/skills/architect/SKILL.md": {
       "class": "owned",
@@ -23,7 +23,7 @@
     },
     ".agents/skills/grilling/SKILL.md": {
       "class": "owned",
-      "sha256": "4e2ed4afe49879a11263addcb78678542bea6b098c96f03ab3a509fe9a6c1ee8"
+      "sha256": "52866cd91353322b81af74922ecd4b12c0dd4cd81f20761a7263f957ecd3e380"
     },
     ".agents/skills/humaniseur-fr/SKILL.md": {
       "class": "owned",
@@ -59,7 +59,7 @@
     },
     ".agents/skills/test-author/SKILL.md": {
       "class": "owned",
-      "sha256": "1f2f3b11923dbe36b74b2342354dd9dd22e65818fc6df68c764689e9dbe09e40"
+      "sha256": "88f0bcbc3b56dfe93ef3f813cecc7c07c199145c5f24fc071baf4f40eb012a11"
     },
     ".agents/skills/translation/SKILL.md": {
       "class": "owned",
@@ -67,7 +67,7 @@
     },
     ".agents/skills/updater/SKILL.md": {
       "class": "owned",
-      "sha256": "951c156866aa89644785d3ecf9229003033726ceeeda0e8cf71862eac2e525cc"
+      "sha256": "1cf0df474d47a20a77399aaab28736e21336ce0f73714c8a1afa289839fa3571"
     },
     ".agents/skills/writing/SKILL.md": {
       "class": "owned",
@@ -267,7 +267,7 @@
     ".reasonix/skills/grilling/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/grilling/SKILL.md",
-      "sha256": "0e7302f5dd34ec1db62373abddff19c756deb3a7e0c14c1e63e2c2e206b531ed"
+      "sha256": "bac9fbe463d179b4af914f10aa7ef20c110a42f1c2a985ef5e71a0407de134ea"
     },
     ".reasonix/skills/humaniseur-fr/SKILL.md": {
       "class": "mirror",
@@ -312,7 +312,7 @@
     ".reasonix/skills/test-author/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/test-author/SKILL.md",
-      "sha256": "1f2f3b11923dbe36b74b2342354dd9dd22e65818fc6df68c764689e9dbe09e40"
+      "sha256": "88f0bcbc3b56dfe93ef3f813cecc7c07c199145c5f24fc071baf4f40eb012a11"
     },
     ".reasonix/skills/translation/SKILL.md": {
       "class": "mirror",
@@ -322,7 +322,7 @@
     ".reasonix/skills/updater/SKILL.md": {
       "class": "mirror",
       "from": ".agents/skills/updater/SKILL.md",
-      "sha256": "f7fb7fb43cc2912bd22020cf5421ff0844ff5a925cdf5558dcab6eded08713ff"
+      "sha256": "ee189fe43bd15a5d99accbf8e33712ae3261f6fe8f143eb17547931735cbe589"
     },
     ".reasonix/skills/writing/SKILL.md": {
       "class": "mirror",
@@ -506,11 +506,11 @@
     },
     "AGENTS.md": {
       "class": "block",
-      "sha256": "502678e0b735b4ae82598332725756833ff1a4181855e4d863b30d27f915bff6"
+      "sha256": "3738b114e4068ebd1dd0df2f9c8b558789b6fb196c5cddae5993e3a81a2cae27"
     },
     "README.md": {
       "class": "block",
-      "sha256": "1e329e0f750363fc82b32f49d476fda608201f3ee7e2fc61e7fb0a1e939c3edc"
+      "sha256": "4a279dc1d2be4df2dcf7735cf9f7a7b96a8d36dc2dca124f4c510b2c5b7cc82f"
     },
     "bin/check-prose-drift.php": {
       "class": "owned",
@@ -522,7 +522,7 @@
     },
     "bin/harness": {
       "class": "owned",
-      "sha256": "91e983d41d4ccfb2de43167d4a5eeb7857ce86b44b7fcbf880afbe1352ff7fbf"
+      "sha256": "cb9ec1a25e4cf0fdcd8fbe057a8f1b0ec8058fa31083ddaf3e06f173c1ea1067"
     },
     "composer.json": {
       "class": "merge",
@@ -534,7 +534,7 @@
     },
     "workflow.md": {
       "class": "block",
-      "sha256": "7c88124fa8ff1238a13f79dfc5b195c1505dc7e37153d37e8fbe30ea54f25636"
+      "sha256": "866651dab3c6907db447393a04ef50152be1b95f005390f2d630b6e612f45875"
     }
   },
   "harness_version": "0.1.0",

@@ -1,14 +1,11 @@
-<!--
-    Generated once, because a project without a README has no onboarding at
-    all. Replace every sentence below with the real thing. The harness only
-    ever rewrites the section between its markers; everything else in this
-    file is yours and will not be touched.
--->
-
 # basecoat-gp
 
-One paragraph on what this is and who it is for. Say what problem it solves
-before saying how — the reader decides in the first two lines.
+The GeneratePress counterpart to Basecoat: a starter for building child themes
+on GeneratePress, carrying the same conventions and the same toolchain in the
+shape a child theme needs.
+
+It is for starting a site that is built on GeneratePress rather than on the
+block editor alone — which, among the themes here, is most of them.
 
 <!-- harness:start -->
 ## Development
@@ -40,7 +37,7 @@ bin/harness setup   # one-time: dependencies and this project's toolchain
 | `composer run make:pot` | regenerate `languages/basecoat-gp.pot` |
 | `npm run zip` | the distributable archive |
 
-**Tests.** This project is a theme, and a theme carries no test layer (ADR 0009): `test`, `integration`, `coverage`, `mutation`, `counterfactual`, `test:js` and `e2e` each print one sentence and exit 0. Lint, the build and the hooks are unchanged.
+**Tests.** This project is a theme, and the harness carries no test layer for themes: `test`, `integration`, `coverage`, `mutation`, `counterfactual`, `test:js` and `e2e` each print one sentence and exit 0. Lint, the build and the hooks are unchanged.
 
 Assets: `npm start` to watch, `npm run build` for a one-shot bundle.
 
@@ -58,11 +55,20 @@ project rather than a missing environment.
 
 ## Installation
 
-1. Install it from the WordPress dashboard, or copy the directory into a
-   WordPress install.
-2. Activate it.
-3. …
+This is a child theme of **GeneratePress**, and a starting point rather than a
+destination:
+
+1. Install and activate GeneratePress.
+2. Copy this directory into `wp-content/themes/` under the name the new site
+   will use, and edit the `Theme Name:`, `Text Domain:` and version headers in
+   `style.css`. **Leave the `Template:` line alone** — it is what makes the child
+   load its parent's styles.
+3. Run `composer install`, `npm install` and `bin/harness setup` — see the
+   Development section below.
+4. Activate it.
 
 ## Support & Contribution
 
-Where to ask questions, and how to contribute.
+basecoat-gp is developed in this repository. Read `AGENTS.md` first: it carries
+the project facts and the gates, and it is where the child-theme shape is
+recorded for every theme built from this one.
