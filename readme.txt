@@ -1,6 +1,6 @@
 == basecoat-gp ==
 
-Contributors:
+Contributors: quentinldd
 Requires at least: 6.8
 Tested up to: 6.8
 Requires PHP: 7.4
@@ -22,7 +22,7 @@ PHP linting, a simple Gulp workflow, and a zip export function for easy deployme
 
 == Copyright ==
 
-basecoat-gp WordPress Theme, (C) 2025
+basecoat-gp WordPress Theme, (C) 2025-2027 Quentin Le Duff (--Q--)
 basecoat-gp is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
