@@ -1,6 +1,6 @@
 {
 	"name": "basecoat-gp-theme",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"scripts": {
 		"build": "wp-scripts build index=assets/src/index.js --output-path=assets/build",
 		"build:all": "npm run test:all && composer run make:pot && npm run build",
