@@ -1,5 +1,5 @@
 {
-  "commit": "520c6df",
+  "commit": "5bfed03",
   "files": {
     ".agents/docs/DISTILLATION.md": {
       "class": "owned",
@@ -239,7 +239,7 @@
     },
     ".githooks/pre-push": {
       "class": "owned",
-      "sha256": "fb0854f8f6fe8bc3a3364e74f67186ee74ba2042ca429d87e20e4185e8eac376"
+      "sha256": "f933c6f78aa89ec6fc923a608762666eeebf937041faf2580fbefd72771070de"
     },
     ".githooks/pre-release": {
       "class": "owned",
@@ -522,7 +522,7 @@
     },
     "bin/harness": {
       "class": "owned",
-      "sha256": "825dccceadac401632d0d38d18618246b53ac8253bac696d1e5dd788f1a9623a"
+      "sha256": "bc643170522c472037e518e9baca3f47bc380cda3cd970c8a185c91ec743d715"
     },
     "composer.json": {
       "class": "merge",
