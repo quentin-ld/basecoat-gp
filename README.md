@@ -7,6 +7,30 @@ shape a child theme needs.
 It is for starting a site that is built on GeneratePress rather than on the
 block editor alone — which, among the themes here, is most of them.
 
+## Compatibility
+
+### Requirements
+
+<!-- harness:compat:start -->
+- WordPress **6.8+** (tested up to **6.8**)
+- PHP **8.1+**
+- Version **2.0.1**
+<!-- harness:compat:end -->
+
+## Installation
+
+This is a child theme of **GeneratePress**, and a starting point rather than a
+destination:
+
+1. Install and activate GeneratePress.
+2. Copy this directory into `wp-content/themes/` under the name the new site
+   will use, and edit the `Theme Name:`, `Text Domain:` and version headers in
+   `style.css`. **Leave the `Template:` line alone** — it is what makes the child
+   load its parent's styles.
+3. Run `composer install`, `npm install` and `bin/harness setup` — see the
+   Development section below.
+4. Activate it.
+
 <!-- harness:start -->
 ## Development
 
@@ -52,20 +76,6 @@ bin/harness help            # every command
 resolved per project, and a direct call fails in a way that looks like a broken
 project rather than a missing environment.
 <!-- harness:end -->
-
-## Installation
-
-This is a child theme of **GeneratePress**, and a starting point rather than a
-destination:
-
-1. Install and activate GeneratePress.
-2. Copy this directory into `wp-content/themes/` under the name the new site
-   will use, and edit the `Theme Name:`, `Text Domain:` and version headers in
-   `style.css`. **Leave the `Template:` line alone** — it is what makes the child
-   load its parent's styles.
-3. Run `composer install`, `npm install` and `bin/harness setup` — see the
-   Development section below.
-4. Activate it.
 
 ## Support & Contribution
 
