@@ -28,7 +28,7 @@ bin/harness package    # build + pot + zip
 bin/harness help       # everything else
 ```
 
-**Tests.** This project is a theme, and the harness carries no test layer for themes: `test`, `integration`, `coverage`, `mutation`, `counterfactual`, `test:js` and `e2e` each print one sentence and exit 0. Lint, the build and the hooks are unchanged.
+**Tests.** This project is a theme, and the harness carries no test layer for themes: `test`, `integration`, `coverage`, `mutation`, `counterfactual`, `test:js`, and `e2e` each print one sentence and exit 0. A `tests/` directory the project already has stays in its repository and is not run; lint, the build and the hooks are unchanged.
 
 Enable the hooks once per clone:
 

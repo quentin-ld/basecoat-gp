@@ -31,13 +31,13 @@ bin/harness setup   # one-time: dependencies and this project's toolchain
 | `npm run test:all` | every linter, and the suites the project has |
 | `npm run build:all` | `test:all`, then the `.pot`, then the bundle |
 | `composer run verify:php` | the pre-push gate: standards and static analysis |
-| `composer run verify:all` | the same, plus the suites the project has |
+| `composer run verify:all` | the same, plus the integration suite where the project has one |
 | `composer run lint:wpcs` / `npm run lint` / `npm run lint:css` | WPCS, ESLint, Stylelint — the `:fix` variants rewrite |
 | `composer run lint:pcp` | Plugin Check, where the project ships through WordPress.org |
 | `composer run make:pot` | regenerate `languages/basecoat-gp.pot` |
 | `npm run zip` | the distributable archive |
 
-**Tests.** This project is a theme, and the harness carries no test layer for themes: `test`, `integration`, `coverage`, `mutation`, `counterfactual`, `test:js` and `e2e` each print one sentence and exit 0. Lint, the build and the hooks are unchanged.
+**Tests.** This project is a theme, and the harness carries no test layer for themes: `test`, `integration`, `coverage`, `mutation`, `counterfactual`, `test:js`, and `e2e` each print one sentence and exit 0. A `tests/` directory the project already has stays in its repository and is not run; lint, the build and the hooks are unchanged.
 
 Assets: `npm start` to watch, `npm run build` for a one-shot bundle.
 
