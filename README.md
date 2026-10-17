@@ -1,5 +1,12 @@
 # basecoat-gp
 
+<img src="screenshot.png" alt="basecoat-gp screenshot" width="100%" />
+
+[![WordPress requires](https://img.shields.io/badge/WordPress%20requires-6.8%2B-21759b)](https://github.com/quentin-ld/basecoat-gp)
+[![PHP](https://img.shields.io/badge/PHP-8.1%2B-8892BF)](https://www.php.net/)
+[![Version](https://img.shields.io/badge/version-2.0.1-2E77BC)](https://github.com/quentin-ld/basecoat-gp)
+[![License](https://img.shields.io/badge/license-GPL--2.0--or--later-brightgreen)](https://www.gnu.org/licenses/gpl-2.0.html)
+
 The GeneratePress counterpart to Basecoat: a starter for building child themes
 on GeneratePress, carrying the same conventions and the same toolchain in the
 shape a child theme needs.

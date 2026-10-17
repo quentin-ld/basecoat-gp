@@ -1,5 +1,5 @@
 {
-  "commit": "3651ecc",
+  "commit": "28f103a",
   "files": {
     ".agents/docs/DISTILLATION.md": {
       "class": "owned",
@@ -508,6 +508,10 @@
       "class": "block",
       "sha256": "109cfc7d5217e193f05b232f6ab16e74723c4e9aa3791eced1a90793f2e577eb"
     },
+    "LICENSE": {
+      "class": "seed",
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
     "README.md": {
       "class": "block",
       "sha256": "91827502e5e52a609386d5eb2fc2d568b421b18870d3ee74fee94ce5871157d8"
@@ -522,7 +526,7 @@
     },
     "bin/harness": {
       "class": "owned",
-      "sha256": "e71c7d6b91990e1ea7d4c50f8f6bf3028e79ffdacf8da2d88d821f0c813816c3"
+      "sha256": "95209eaa6506d68a38f944fa2a892a22185a422f6b410a75a5fbe3cf94b9659e"
     },
     "composer.json": {
       "class": "merge",
@@ -531,6 +535,10 @@
     "package.json": {
       "class": "merge",
       "sha256": "ba28bdd50d87ede3e77e2eb229ccae2c138431d32f690e7e91c5db60f06cb2b3"
+    },
+    "readme.txt": {
+      "class": "seed",
+      "sha256": "8d7565d03e738f7bc391463ca05e700b585a8f09a22b08e16fdb056a8e0311f1"
     },
     "workflow.md": {
       "class": "block",
