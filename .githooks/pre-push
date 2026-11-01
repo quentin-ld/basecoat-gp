@@ -87,7 +87,9 @@ SECONDS=0
 
 status=0
 
-"$ROOT/bin/harness" lint || status=1
+# Diff-scoped: only the PHP this push changes. The full-tree `lint` remains the
+# release/merge gate; unrelated legacy debt must not block a push.
+"$ROOT/bin/harness" lint:changed || status=1
 
 # The README's announced facts, read back from the project header: the WordPress
 # and PHP floors, the version tested against, the version shipped as. The
@@ -108,6 +110,15 @@ status=0
 # rebuild cannot complete. Costs about two seconds in the fleet's largest
 # project, against the 360 s target.
 "$ROOT/bin/harness" graft check || status=1
+
+# Task-scoped mutation: a project opts in by recording refs/testbook/base
+# (`bin/gate base`). The branch's upstream remains the fallback, and the full
+# branch is one env var away: HARNESS_MUTATION_BASE=@{upstream} git push.
+if [[ -z "${HARNESS_MUTATION_BASE:-}" ]] && git rev-parse --verify --quiet refs/testbook/base >/dev/null; then
+	export HARNESS_MUTATION_BASE="refs/testbook/base"
+	printf 'pre-push: mutation base refs/testbook/base (%s); set HARNESS_MUTATION_BASE=@{upstream} for the full branch.\n' \
+		"$(git rev-parse --short refs/testbook/base)" >&2
+fi
 
 # A plugin carries a test layer; a theme does not. A theme's pre-push
 # is the full lint and nothing more. The kind is baked into the hook rather than
