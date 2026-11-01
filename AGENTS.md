@@ -2,7 +2,7 @@
 ## Harness runtime (0.1.0)
 
 Every tool goes through `bin/harness`. It resolves the execution backend for
-you, in this order: **DDEV**, then **LocalWP**, then the host.
+you, in this order: **DDEV**, then the host.
 
 ```bash
 bin/harness doctor          # backend, tools, graft, manifest — run this first
@@ -66,7 +66,7 @@ convenience. If a gate is wrong, fix the gate and say so.
 
 Most of this repository's tooling is **generated** and recorded in
 `.harness/manifest.json`: `bin/`, `.config/`, `.githooks/`, `.agents/skills/`,
-`.agents/docs/`, `.reasonix/`, `composer.json`, `package.json`, `.gitignore`,
+`.agents/docs/`, `composer.json`, `package.json`, `.gitignore`,
 `.distignore` and this section. Editing one does not stick: `harness sync`
 overwrites it. What the manifest does not own — your code, `readme.txt`, a seeded
 file once it exists, and any text outside a marked region — is yours, and stays

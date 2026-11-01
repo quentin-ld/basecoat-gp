@@ -16,8 +16,8 @@ For the commands themselves, run `bin/harness help`, or read `AGENTS.md`.
 <!-- harness:start -->
 ## Harness commands (0.1.0)
 
-The canonical entry point is `bin/harness`. It resolves DDEV, then LocalWP,
-then the host, so the same command works in every environment:
+The canonical entry point is `bin/harness`. It resolves DDEV, then the host,
+so the same command works in every environment:
 
 ```bash
 bin/harness doctor     # backend, tools, graft, manifest
