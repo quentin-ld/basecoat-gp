@@ -385,3 +385,5 @@ artifacts/
 .reasonix/
 /graft/
 /.ignore
+!docs/user/
+!docs/user/**

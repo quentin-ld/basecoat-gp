@@ -1,5 +1,5 @@
 {
-  "commit": "25d83d1",
+  "commit": "c89f9e9",
   "files": {
     ".agents/docs/DISTILLATION.md": {
       "class": "owned",
@@ -68,6 +68,10 @@
     ".agents/skills/updater/SKILL.md": {
       "class": "owned",
       "sha256": "2e992323f82405bb1410a01956013f2e17aa832d519a94db21a8e8011a10f678"
+    },
+    ".agents/skills/user-docs/SKILL.md": {
+      "class": "owned",
+      "sha256": "e4b5763884cc5a20131c1bf433d58c598e0ad2bb686dc5b1310d93e5b2d842ac"
     },
     ".agents/skills/writing/SKILL.md": {
       "class": "owned",
@@ -247,7 +251,7 @@
     },
     ".gitignore": {
       "class": "lines",
-      "sha256": "1417608fac71e604dd584fd18b8747eb78cf8023bdfbda2f29c8125b331c4261"
+      "sha256": "dd15b80b8f21a395d5972eebc3116fc05a85b2d70d0379f345bb0d12f2e1af90"
     },
     "AGENTS.md": {
       "class": "block",
@@ -269,13 +273,25 @@
       "class": "owned",
       "sha256": "929229404bf60ce379b136fa964776acdce25297e314e89981d1819f8e34e10c"
     },
+    "bin/check-user-docs.php": {
+      "class": "owned",
+      "sha256": "403f78bb680c989b0f7a96265d37d5c00a94ba7abfa17b85738928f43626adff"
+    },
     "bin/harness": {
       "class": "owned",
-      "sha256": "d79d3ed2f9d0037c4e21faf427bc20a9a8ae8a80c685a5f8cf83790ca4853d64"
+      "sha256": "7e7834db831a5ae3cf47036dfd0d1a0c7610fbdeb5923050dc78547ed6f75398"
     },
     "composer.json": {
       "class": "merge",
       "sha256": "288922cd63d6ae45511dcf763cd2f0677468ad905b1d17a1ae004c65af23dc63"
+    },
+    "docs/user/images/.gitkeep": {
+      "class": "seed",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "docs/user/index.md": {
+      "class": "seed",
+      "sha256": "29fadf68ff7af10d7286d8f6c4c8286b54c285daba72dd6890be6823e823624d"
     },
     "package.json": {
       "class": "merge",
