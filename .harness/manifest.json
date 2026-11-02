@@ -1,5 +1,5 @@
 {
-  "commit": "c89f9e9",
+  "commit": "cd57153",
   "files": {
     ".agents/docs/DISTILLATION.md": {
       "class": "owned",
@@ -279,7 +279,7 @@
     },
     "bin/harness": {
       "class": "owned",
-      "sha256": "7e7834db831a5ae3cf47036dfd0d1a0c7610fbdeb5923050dc78547ed6f75398"
+      "sha256": "37e0354173fc1acf320a742548b8351c50db2c0a56e6f7f639c0907435e554ee"
     },
     "composer.json": {
       "class": "merge",
